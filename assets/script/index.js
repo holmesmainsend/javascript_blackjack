@@ -15,13 +15,12 @@ let gameMessage = ""
  
 if(sum < 21) {
     gameMessage = "Would you like to draw a new card?"
-    console.log(gameMessage)
 } else if (sum === 21) {
     gameMessage = "Blackjack!"
-    console.log(gameMessage)
     hasBlackJack = true
 } else {
     gameMessage = "You lose."
-    console.log(gameMessage)
     isAlive = false
 }
+
+console.log(gameMessage)
