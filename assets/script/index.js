@@ -1,3 +1,11 @@
+let age = 22
+
+if(age < 21) {
+    console.log("You are not permitted to enter the gambling floor.")
+} else {
+    console.log("Come right on in!")
+}
+
 let firstCard = Math.floor(Math.random() * 10) + 2
 let secondCard = Math.floor(Math.random() * 10) + 2
 let sum = firstCard + secondCard
