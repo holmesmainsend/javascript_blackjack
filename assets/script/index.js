@@ -7,8 +7,8 @@
 // }
 
 let startEl = document.getElementById("start-button")
-let firstCard = Math.floor(Math.random() * 10) + 2
-let secondCard = Math.floor(Math.random() * 10) + 2
+let firstCard = Math.floor(Math.random() * 13) + 1
+let secondCard = Math.floor(Math.random() * 13) + 1
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
