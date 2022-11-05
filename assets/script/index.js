@@ -11,13 +11,17 @@ let secondCard = Math.floor(Math.random() * 10) + 2
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
+let gameMessage = ""
  
 if(sum < 21) {
-    console.log("Would you like to draw a new card?")
+    gameMessage = "Would you like to draw a new card?"
+    console.log(gameMessage)
 } else if (sum === 21) {
-    console.log("Blackjack!")
+    gameMessage = "Blackjack!"
+    console.log(gameMessage)
     hasBlackJack = true
 } else {
-    console.log("You lose.")
+    gameMessage = "You lose."
+    console.log(gameMessage)
     isAlive = false
 }
