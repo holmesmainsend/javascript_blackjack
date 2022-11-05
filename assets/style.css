@@ -1,3 +1,7 @@
 body {
-    background: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("greenbackground.jpg");
+    background-size: cover;
 }
+
+/* Add grid property for all elements later */
