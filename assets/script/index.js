@@ -1,3 +1,5 @@
+// Program logic not finished, only starter template
+
 // let age = 22
 
 // if(age < 21) {
